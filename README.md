@@ -189,12 +189,27 @@ This page was created to:
 - Under forming routes
 
 these are routes that are not contributing enough to the business compared to other routes.
+
 ![image](Underperforming_Routes.png)
 
 - Top 5 routes by Revenue
+
+ these are top 5 Performing route that contribute enough money to the business where **Atlanta - Mascot route** contribute the highest revenue of **33k** to the business
+ 
+ ![image](Top_5_Routes_by_Revenue.png)
+
+
 - Revenue by destination city
+
+ This visual showswhich cities are the most valuable destination for the business.**OTA** generated the highest revenue of **0.15m**
+ 
+ ![image](Revenue_by_Destination_City.png)
+ 
 -  Booking agency performance table
 
-Can you write a short ovwrwiew for this page, and reason for creating the page
+This visual shows the booking agencies that bring the most customers and generate the most revenue to the business.
+
+![image](Booking_Agency_Performance.png)
+
 This page serves as the commercial performance layer of the dashboard, helping stakeholders understand where revenue is generated and where opportunities for optimization exist.
 
