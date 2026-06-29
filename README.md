@@ -312,6 +312,31 @@ This page serves as the customer and demand intelligence layer of the dashboard,
 
 ## Key Insights & reccomendation
 
+## 📂File Included
+
+├── powerBi Airline-Revenue-Travel-Analytics-Dashboard.pbix / [`Travelers_Report.pbix`](Travelers_Report.pbix) 
+
+
+├── Airline-Revenue-Travel-Analytics.xlsx
+
+│        └── data/[`Flights-Dataset.xlsx`](Flights-Dataset.xlsx) 
+
+
+
+└── README.md / [`README.md`](README.md) 
+
+
+
+
+## How to Use
+1. Download the .pbix file from the dashboard folder [`Travelers_Report.pbix`](Travelers_Report.pbix)
+2. Open with Power BI Desktop [Power BI Desktop](https://powerbi.microsoft.com/).
+3.  Use slicers to explore insights across different dimensions
+
+
+
+
+
 ## Filter Pane
 The Filter Pane consist the following slicer
 <table>
@@ -531,6 +556,25 @@ A custom calendar (date) table was created and marked as a date table to support
          <tr>
     <th>Revenue YOY %</th>  
    <th>=DIVIDE([Total Revenue] -[Py Revenue],[Py Revenue])</th>
-      
+
+
+
+   ## 👤 Author
+Afolakemi Olalekan
+<table>
+  <tbody>
+    <tr>
+<td>📧</td>
+      <td><a href="mailtoAfolakemiayomiposi@gmail.com">Afolakemiayomiposi@gmail.com</a></td>
+    </tr>
+    <tr>
+ <td>🌐</td>
+      <td><a href="https://linkedin.com/in/afolakemi-olalekan-145174253">My LinkedIn Profile</a></td>
+    </tr>
+    <tr>  
+<td>💻</td>
+      <td><a href="https://github.com/Olalekan4545">My GitHub profile</a></td>
+    </tr>
+    <tr>     
     
 
