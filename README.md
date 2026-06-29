@@ -313,6 +313,7 @@ This page serves as the customer and demand intelligence layer of the dashboard,
 ## Key Insights & reccomendation
 
 ## Filter Pane
+The Filter Pane consist the following slicer
 <table>
   <tr>
     <th>Filter</th>
@@ -357,3 +358,94 @@ This page serves as the customer and demand intelligence layer of the dashboard,
     <tr>
    </tr>
 </table>
+
+## Dax Measures
+The following measures power the KPI cards, charts, and calculated logic throughout the report. Each entry includes the measure name.
+
+<table>
+  <tr>
+    <th>Measures</th>
+   <th>Description</th>
+   <th>Formula</th>
+   <tr>
+    <th>Total Revenue</th>
+   <th>Sum of Ticket Amount</th>
+    <th>= sum(Flights[Ticket Amount])</th>
+    <tr>
+    <th>Avg Ticket Value</th>
+   <th>Average of Ticket Value</th>
+     <th>= Average(Flights[Ticket Amount])</th>
+     <tr>
+    <th>Total Travelers</th>  
+   <th>Count of Travelers Name</th>
+      <th>= DISTINCTCOUNT(Flights[Traveler Name])</th>
+    <tr>
+    <th>Total Booking</th>
+   <th>Count of Rows</th>
+     <th>= COUNTROWS(Flights)</th>
+    <tr>
+    <th>Total Routes</th> 
+   <th>Count of Route</th>
+ <th>= DISTINCTCOUNT(Flights[Route])</th>
+    <tr>
+    <th>Revenue from Return Trips</th> 
+   <th>Sum of Ticket Amount of Return Trip</th>
+     <th>= CALCULATE([Total Revenue],Flights[Return]="yes")</th>
+     <tr>
+    <th>Revenue from One Way Trip</th> 
+   <th>Sum of Ticket Amount of One Way trip Trip</th>
+      <th>= CALCULATE([Total Revenue],Flights[One-way]="yes")</th>
+    <tr>
+    <th>Top Performing Routes</th>
+   <th>Filtering of the Highest Generated Revenue Route</th>
+     <th>VAR TopRouteTable =
+    TOPN(
+        1,
+        SUMMARIZE(
+            ALL(Flights),
+            Flights[Route ],
+            "Revenue", [Total Revenue]
+        ),
+        [Revenue],
+        DESC
+    )
+RETURN
+    MAXX(TopRouteTable, Flights[Route ])</th>
+    <tr>
+    <th>Top Airline Patner</th></th>
+   <th>Filtering the Top performing Airline Patners</th>
+     <th> = 
+VAR TopAirlineTable =
+    TOPN(
+        1,
+        SUMMARIZE(
+            ALL(Flights),
+            Flights[Airlines],
+            "Revenue", [Total Revenue]
+        ),
+        [Revenue],
+        DESC
+    )
+RETURN
+    MAXX(TopAirlineTable, Flights[Airlines])</th>
+  <tr>
+    <th>Top Performing Booking Agency</th>
+   <th>Filtering out The Top Performing Booking Agency</th>
+    <th>= 
+VAR TopBookingTable =
+    TOPN(
+        1,
+        SUMMARIZE(
+            ALL(Flights),
+            Flights[Booking Agency],
+            "Revenue", [Total Revenue]
+        ),
+        [Revenue],
+        DESC
+    )
+RETURN
+    MAXX(TopBookingTable, Flights[Booking Agency])</th>
+    <tr>
+   </tr>
+</table>
+
