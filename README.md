@@ -302,7 +302,7 @@ This page serves as the customer and demand intelligence layer of the dashboard,
     <th>Avg Top Booking Channel</th>
    <th>Expedia($1.06m)</th>
     <tr>
-    <th>Top airline Partner</th>
+    <th>Top Airline Partner</th>
    <th>Hawaiian($372.68)</th>
     <tr>
    </tr>
