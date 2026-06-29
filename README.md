@@ -261,7 +261,9 @@ The visual tells us how much each category contributes to total revenue, **Domes
 
 - Travel segment preference analysis
 
-[image](Traveler_Segment_Analysis_Table.png)
+This table visual examine how different groups of travelers behave and what choice they make.
+
+![image](Traveler_Segment_Analysis_Table.png)
 
 
 This page serves as the customer and demand intelligence layer of the dashboard, enabling stakeholders to better understand traveler behavior and uncover opportunities for customer growth and premium revenue expansion.
