@@ -23,9 +23,8 @@ The Airline Revenue & Travel Analytics Dashboard was developed to analyze airlin
 - Business Objectives
 - Dataset Description
 - Tools used
-- 
 - Key Metrics
-- Dax Used
+- Dax Calculation
 - Insights & Recommendations
 - How to Use the Report
 
@@ -267,3 +266,44 @@ This table visual examine how different groups of travelers behave and what choi
 
 
 This page serves as the customer and demand intelligence layer of the dashboard, enabling stakeholders to better understand traveler behavior and uncover opportunities for customer growth and premium revenue expansion.
+
+
+## Key Metrics
+<table>
+  <tr>
+    <th>KPIs</th>
+   <th>Values</th>
+   <tr>
+    <th>total Revenue</th>
+   <th>$8.37m</th>
+    <tr>
+    <th>Average Ticket Value</th>
+   <th>$837.10</th>
+     <tr>
+    <th>Total Travelers</th>
+   <th>10k</th>
+    <tr>
+    <th>Total Bookings</th>
+   <th>10k</th>
+    <tr>
+    <th>Revenue from One way trip</th>
+   <th>$4.19m</th>
+    <tr>
+    <th>Revenue form Return Trip</th>
+   <th>$4.18m</th>
+     <tr>
+    <th>Total Routes</th>
+   <th>4576</th>
+    <tr>
+    <th>Top Performing Route</th>
+   <th>Atlanta - mascot ($32.68k)
+   </th>
+    <tr>
+    <th>Avg Top Booking Channel</th>
+   <th>Expedia($1.06m)</th>
+    <tr>
+    <th>Top airline Partner</th>
+   <th>Hawaiian($372.68)</th>
+    <tr>
+   </tr>
+</table>
