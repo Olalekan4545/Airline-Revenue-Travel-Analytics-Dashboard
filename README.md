@@ -24,8 +24,9 @@ The Airline Revenue & Travel Analytics Dashboard was developed to analyze airlin
 - Dataset Description
 - Tools used
 - Key Metrics
-- Dax Calculation
 - Insights & Recommendations
+- Filters
+- Measures
 - How to Use the Report
 
 ## 📌 Project Overview
@@ -98,7 +99,7 @@ The dataset contains Flight booking transactions with the following information:
 
 ## 🛠️ Tools Used
 - Power BI : to create report and Vissualization.
-- DAX : for calulation of Metrics.
+- Measures : for calulation of Metrics.
 - Power Query: for cleaning and checking data quality.
 - Data Modeling: for creating a relationship between my dataset and date table.
 
@@ -274,7 +275,7 @@ This page serves as the customer and demand intelligence layer of the dashboard,
     <th>KPIs</th>
    <th>Values</th>
    <tr>
-    <th>total Revenue</th>
+    <th>Total Revenue</th>
    <th>$8.37m</th>
     <tr>
     <th>Average Ticket Value</th>
@@ -304,6 +305,55 @@ This page serves as the customer and demand intelligence layer of the dashboard,
     <tr>
     <th>Top Airline Partner</th>
    <th>Hawaiian($372.68k)</th>
+    <tr>
+   </tr>
+</table>
+
+
+## Key Insights & reccomendation
+
+## Filter Pane
+<table>
+  <tr>
+    <th>Filter</th>
+   <th>Options</th>
+   <th>Effect</th>
+   <tr>
+    <th>Year</th>
+   <th>All // 2018 // 2019 // 2020</th>
+    <th>Filter Visual to a selected Year</th>
+    <tr>
+    <th>Routes</th>
+   <th>All // Route Name</th>
+     <th>Filter Visual by Route Name</th>
+     <tr>
+    <th>Destination city</th>
+   <th>All // City Name</th>
+      <th>Filter by Destination city</th>
+    <tr>
+    <th>Booking Agency</th>
+   <th>All // Booking Agency Name</th>
+     <th>Filter Visuals by Booking Agency Name</th>
+    <tr>
+    <th>Airlines</th>
+   <th>All // Airlines Name</th>
+ <th>Filter Visual by Airline name</th>
+    <tr>
+    <th>Trip Type</th>
+   <th>All // One Way Trip // Return Trip</th>
+     <th>Filter Visual to a Specific Trip</th>
+     <tr>
+    <th>Trip Category</th>
+   <th>All // Domestic // international</th>
+      <th>Filter Visual to a Spectific Category</th>
+    <tr>
+    <th>Seat Class</th>
+   <th>All // Business // Economy //First Class// Premium Economy</th>
+     <th>Filter Visual to a specific Seat Class</th>
+    <tr>
+    <th>Travel Purpose</th>
+   <th>All // Business // Personal non Leisure // Personal Leisure // Others</th>
+     <th>Filter Visual to a Specified Travel Purpose</th>
     <tr>
    </tr>
 </table>
