@@ -558,9 +558,21 @@ A custom calendar (date) table was created and marked as a date table to support
    <th>=DIVIDE([Total Revenue] -[Py Revenue],[Py Revenue])</th>
 <tr> 
 </tr>
+</table>
 
 
 
+
+### 👨‍💻 About Me
+I am a Data Analyst specializing in Excel and Powerbi. I love turning messy data into clean and actionable stories.
+
+🔗 [Linkdin_Profile](https://linkedin.com/in/afolakemi-olalekan-145174253)
+
+
+ 🔗 [My_Portfolio](https://olalekan4545.github.io/Port-folio/)
+
+
+  🔗[Download_CV](https://drive.google.com/file/d/1IPrrwX4F2d5dlDdMQoQDFBmyoK3eE9Hu/view?usp=drive_link)
 
    
     
