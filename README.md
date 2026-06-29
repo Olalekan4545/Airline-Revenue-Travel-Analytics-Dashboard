@@ -561,6 +561,8 @@ A custom calendar (date) table was created and marked as a date table to support
 
    ## 👤 Author
 Afolakemi Olalekan
+I am a Data Analyst specializing in Excel and Powerbi. I love turning messy data into clean and actionable stories.
+
 <table>
   <tbody>
     <tr>
