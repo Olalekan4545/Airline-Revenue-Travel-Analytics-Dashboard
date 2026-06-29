@@ -465,3 +465,59 @@ RETURN
    </tr>
 </table>
 
+## 🗓Time Intelligence Calulation
+A custom calendar (date) table was created and marked as a date table to support advanced time‑based analysis, including:
+<table>
+  <tr>
+    <th>Measures</th>
+   <th>Formula</th>
+   <tr>
+    <th>Date Table</th>
+    <th> = CALENDAR(MIN(Flights[Booking Date]),MAX(Flights[Travel Start Date]))</th>
+    <tr>
+    <th>Year</th>
+   <th>= YEAR('Table Date'[Date])</th>
+     <tr>
+    <th>Months</th>  
+   <th>= FORMAT('Table Date'[Date],"mmmm")</th>
+      <tr>
+    <th>Month No</th>  
+   <th> = MONTH('Table Date'[Date])</th>
+       <tr>
+    <th>Day Name</th>  
+   <th>=FORMAT('Table Date'[Date],"dddd")</th>
+   <tr>
+    <th>Day No</th>  
+   <th>= DAY('Table Date'[Date])</th>
+     <tr>
+    <th>Py Avg Ticket Value</th>  
+   <th>= CALCULATE([Avg Ticket Value], SAMEPERIODLASTYEAR('Table Date'[Date]))</th>
+      <tr>
+    <th>Py Bookings</th>  
+   <th> = CALCULATE([Total Bookings], SAMEPERIODLASTYEAR('Table Date'[Date]))</th> 
+      <tr>
+    <th>Py One Way Trip</th> 
+   <th> = CALCULATE([Revenue from One Way Trips], SAMEPERIODLASTYEAR('Table Date'[Date])) </th>
+      <tr>
+    <th>Py Return Trip</th>  
+   <th>= CALCULATE([Revenue from Return Trips], SAMEPERIODLASTYEAR('Table Date'[Date]))</th>
+      <tr>
+    <th> Py Revenue</th> 
+   <th>= CALCULATE([Total Revenue], SAMEPERIODLASTYEAR('Table Date'[Date]))</th>
+      <tr>
+    <th>Py Routes </th> 
+   <th>=CALCULATE([Total Routes], SAMEPERIODLASTYEAR('Table Date'[Date]))</th>
+      <tr>
+    <th>Py Travelers</th>  
+   <th>=  = CALCULATE([Total Travelers], SAMEPERIODLASTYEAR('Table Date'[Date]))</th>
+      <tr>
+    <th>Day No</th>  
+   <th>= DAY('Table Date'[Date])</th>
+      <tr>
+    <th>Day No</th>  
+   <th>= DAY('Table Date'[Date])</th>
+      <tr>
+    <th>Day No</th>  
+   <th>= DAY('Table Date'[Date])</th>
+    
+
