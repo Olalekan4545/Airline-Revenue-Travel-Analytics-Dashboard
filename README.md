@@ -556,27 +556,12 @@ A custom calendar (date) table was created and marked as a date table to support
          <tr>
     <th>Revenue YOY %</th>  
    <th>=DIVIDE([Total Revenue] -[Py Revenue],[Py Revenue])</th>
+<tr> 
+</tr>
 
 
 
-   ## 👤 Author
-Afolakemi Olalekan
-I am a Data Analyst specializing in Excel and Powerbi. I love turning messy data into clean and actionable stories.
 
-<table>
-  <tbody>
-    <tr>
-<td>📧</td>
-      <td><a href="mailtoAfolakemiayomiposi@gmail.com">Afolakemiayomiposi@gmail.com</a></td>
-    </tr>
-    <tr>
- <td>🌐</td>
-      <td><a href="https://linkedin.com/in/afolakemi-olalekan-145174253">My LinkedIn Profile</a></td>
-    </tr>
-    <tr>  
-<td>💻</td>
-      <td><a href="https://github.com/Olalekan4545">My GitHub profile</a></td>
-    </tr>
-    <tr>     
+   
     
 
