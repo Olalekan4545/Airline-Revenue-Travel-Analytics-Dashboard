@@ -521,13 +521,13 @@ A custom calendar (date) table was created and marked as a date table to support
    <th>= DIVIDE([Revenue from One Way Trips] -[Py One Way Trip],[Py One Way Trip])</th>
          <tr>
     <th>Return YOY %</th>
-   <th  = DIVIDE([Revenue from Return Trips] -[Py Return Trip],[Py Return Trip])</th>
+   <th>= DIVIDE([Revenue from Return Trips] -[Py Return Trip],[Py Return Trip])</th>
          <tr>
     <th> Route YOY %</th> 
    <th>= DIVIDE([Total Routes] -[Py Routes],[Py Routes])</th>
          <tr>
-    <th>Travelers YOY %<th> 
-   <th>=  = DIVIDE([Total Travelers] -[Py Travelers],[Py Travelers])</th>
+    <th>Travelers YOY %</th> 
+   <th>= DIVIDE([Total Travelers] -[Py Travelers],[Py Travelers])</th>
          <tr>
     <th>Revenue YOY %</th>  
    <th>=DIVIDE([Total Revenue] -[Py Revenue],[Py Revenue])</th>
