@@ -446,6 +446,22 @@ VAR TopBookingTable =
 RETURN
     MAXX(TopBookingTable, Flights[Booking Agency])</th>
     <tr>
+    <th>Premium Cabin Bookings</th> 
+   <th>Sum of the Premium Bookings</th>
+    <th>= CALCULATE(COUNTROWS(Flights),Flights[Seat class] IN {"Business","First Class"})</th>
+      <tr>
+    <th>Premium Cabin Percentage</th>
+   <th>Division of Premium Bookings by Total Bookings</th>
+    <th>Premium Cabin % = DIVIDE([Premium Cabin Bookings],[Total Bookings])</th>
+    <tr>
+    <th>Return Trip Percentage</th>
+   <th>Division of Return Trip by Bookings</th>
+    <th>= DIVIDE([Return Trip],[Total Bookings])</th>
+      <tr>
+    <th>Revenue Contribution Percentage</th>
+   <th>Division of Revenue by all Flights</th>
+    <th>=DIVIDE([Total Revenue], CALCULATE([Total Revenue], ALL(Flights)))</th>
+    <tr>
    </tr>
 </table>
 
