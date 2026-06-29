@@ -164,5 +164,32 @@ It shows the five travelers who generated the highest total revenue for the busi
 
   
 This page serves as the executive summary layer of the dashboard, allowing decision-makers to understand the business at a glance before drilling into route performance and traveler behavior on subsequent pages.
+
+#### Page 2: Route & Partner Performance Analysis
+The Route & Partner Performance page focuses on identifying the key drivers of revenue across routes, airline partners, destinations, and booking channels. It highlights top-performing and underperforming areas to support commercial decision-making and revenue optimization.
+![image](Routes.png)
+
+#### Purpose of the Page
+This page was created to:
+- Evaluate the profitability and performance of travel routes.
+- Identify the most valuable destination markets and airline partners.
+- Measure the effectiveness of booking agencies in generating revenue and bookings.
+- Detect underperforming routes that may require strategic intervention or optimization.
+- Support route planning, partnership management, and revenue growth initiatives.
   
+#### Key Questions Answered
+- Which routes generate the highest revenue?
+- Which routes are underperforming?
+- Which destination cities contribute the most revenue?
+- Which airline partners drive the business?
+- Which booking agencies contribute the most bookings and revenue?
+
+#### Key Visuals
+- Under forming routes
+- Top 5 routes by Revenue
+- Revenue by destination city
+-  Booking agency performance table
+
+Can you write a short ovwrwiew for this page, and reason for creating the page
+This page serves as the commercial performance layer of the dashboard, helping stakeholders understand where revenue is generated and where opportunities for optimization exist.
 
