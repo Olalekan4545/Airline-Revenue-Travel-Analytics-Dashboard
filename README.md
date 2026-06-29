@@ -303,7 +303,7 @@ This page serves as the customer and demand intelligence layer of the dashboard,
    <th>Expedia($1.06m)</th>
     <tr>
     <th>Top Airline Partner</th>
-   <th>Hawaiian($372.68)</th>
+   <th>Hawaiian($372.68k)</th>
     <tr>
    </tr>
 </table>
