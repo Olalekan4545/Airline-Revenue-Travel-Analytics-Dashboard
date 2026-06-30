@@ -5,7 +5,7 @@ The Airline Revenue & Travel Analytics Dashboard was developed to analyze airlin
  </tr>
     <tr>
       <td>🌐</td>
-      <td><a href="https://app.powerbi.com/view?r=eyJrIjoiZmZjZGQ0M2QtZGYzZC00ZmMxLTlhOGMtODJhNzhhZTZjOWU5IiwidCI6ImUwYjEzY2QwLTY1MjItNDFmNS05MjFlLTg5OGRmMTBkZGIzMiJ9">View Live Dashboard</a></td>   |      </tr>
+      <td><a href="https://app.powerbi.com/view?r=eyJrIjoiZGU2NTlmN2UtMjA0MS00NWNiLWI1YTItM2ViZWRmOThkMmFiIiwidCI6ImUwYjEzY2QwLTY1MjItNDFmNS05MjFlLTg5OGRmMTBkZGIzMiJ9">View Live Dashboard</a></td>   |      </tr>
     <tr>
       <td>📃</td>
       <td><a href="https://docs.google.com/spreadsheets/d/1_8My4fhZrxE5cDxk_mJd5QfNsZYYzCkS2wV4aE8toX4/edit?usp=drive_link">Dataset</a></td> |    <tr>
@@ -66,7 +66,7 @@ The Airline Revenue & Travel Analytics Dashboard was developed to analyze airlin
       </tr>
   <tr>
     <td>Live Report</td>
-     <td><a href="https://app.powerbi.com/view?r=eyJrIjoiZmZjZGQ0M2QtZGYzZC00ZmMxLTlhOGMtODJhNzhhZTZjOWU5IiwidCI6ImUwYjEzY2QwLTY1MjItNDFmNS05MjFlLTg5OGRmMTBkZGIzMiJ9">View Live Dashboard</a></td>
+     <td><a href="https://app.powerbi.com/view?r=eyJrIjoiZGU2NTlmN2UtMjA0MS00NWNiLWI1YTItM2ViZWRmOThkMmFiIiwidCI6ImUwYjEzY2QwLTY1MjItNDFmNS05MjFlLTg5OGRmMTBkZGIzMiJ9">View Live Dashboard</a></td>
     </tr>
 </table>
 
